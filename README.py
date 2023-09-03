@@ -13,11 +13,15 @@ async def on_ready():
 
 @bot.event 
 async def on_member_bans():
-    print(f'{bot.ban} ')
+    print(f'{UserWarning.ban} ')
 
 @bot.command()
 async def hello(ctx):
     await ctx.send(f'Merhaba {bot.user}! Ben bir botum!')
+
+@bot.command()
+async def yazitura(ctx):
+    await ctx.send(random.choice(("yazi", "tura")))
 
 @bot.command()
 async def heh(ctx, count_heh = 5):
@@ -44,5 +48,8 @@ async def meme_at(ctx):
     await ctx.send(file=dosya)
 
 
+
+
+bot.run("token")
 
 

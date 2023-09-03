@@ -46,4 +46,3 @@ async def meme_at(ctx):
 
 
 
-bot.run("MTE0NzU1MzkxNjM3MjkyNjQ3NA.G8ctJu.sJNvTdNRpNoZFYbWt4QObntFNyz2wuRZmAjaB8")
